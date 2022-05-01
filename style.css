@@ -27,3 +27,17 @@ input{
     display: block;
     width: 100%;
 }
+
+button{
+    width: 100%;
+    font-size: 40px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.select{
+    margin: 50px 0px 50px 0px;
+}
+
+button:focus{
+    background-color: rgb(21, 218, 145);
+}

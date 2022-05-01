@@ -17,17 +17,27 @@
                 <label for="email"></label>
                 <input class="input" type="email" id="email" placeholder="email manzilingiz" name="email" required>
 
+                <div class="select">
+                    <label class="lab" for="city">City</label>
+                <select name="country" id="city">
+                    <option>Select City</option>
+                    <option>Tashkent</option>
+                    <option>Moscov</option>
+                </select>
+                </div>
+
                 <div class="chec">
                     <label for="ozim">
                         ozim
-                        <input type="radio" id="ozim" name="chec" required>
+                        <input type="radio" id="ozim" name="chec" value="ozim" required>
                     </label>
 
                     <label for="dostim">
                         dostim
-                        <input type="radio" name="chec" id="dostim" required>
+                        <input type="radio" name="chec" id="dostim" value="dostim" required>
                     </label>
                 </div>
+                <button type="submit">submit</button>
             </fieldset>
         </form>
     </div>
